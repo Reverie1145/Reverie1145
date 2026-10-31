@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="240" viewBox="0 0 880 240" role="img" aria-label="Reverie1337 — I build small sharp tools: watch apps, bytecode, infrastructure.">
+<defs>
+  <filter id="e1" x="-6%" y="-12%" width="112%" height="130%"><feDropShadow dx="0" dy="1" stdDeviation="1.8" flood-color="#000000" flood-opacity="0.14"/></filter>
+  <filter id="e2" x="-6%" y="-12%" width="112%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.18"/></filter>
+</defs>
+<rect x="0.5" y="0.5" width="879" height="239" rx="28" fill="#F7F2FA" stroke="#CAC4D0" stroke-width="1" filter="url(#e1)"/>
+<text x="40.0" y="54.0" font-family="'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="500" letter-spacing="1.6" fill="#6750A4" text-anchor="start">PROFILE / 01</text>
+<text x="40.0" y="110.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="500" letter-spacing="-0.5" fill="#1D1B20" text-anchor="start">Reverie1337</text>
+<text x="40.0" y="144.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="400" letter-spacing="0.15" fill="#49454F" text-anchor="start">I build small sharp tools: watch apps, bytecode, infrastructure.</text>
+<rect x="40.0" y="172" width="144.5" height="32" rx="8" fill="none" stroke="#CAC4D0" stroke-width="1"/>
+<text x="53.0" y="192.6" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0.1" fill="#49454F" text-anchor="start">QuickJS bytecode</text>
+<rect x="192.5" y="172" width="135.9" height="32" rx="8" fill="none" stroke="#CAC4D0" stroke-width="1"/>
+<text x="205.5" y="192.6" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0.1" fill="#49454F" text-anchor="start">Vela / wearables</text>
+<rect x="336.4" y="172" width="158.5" height="32" rx="8" fill="none" stroke="#CAC4D0" stroke-width="1"/>
+<text x="349.4" y="192.6" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0.1" fill="#49454F" text-anchor="start">Reverse engineering</text>
+<rect x="717.4" y="38" width="122.6" height="30" rx="15" fill="#EADDFF"/>
+<circle cx="736.4" cy="53" r="4" fill="#6750A4"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
+<text x="748.4" y="57.5" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="1.0" fill="#21005D" text-anchor="start">DORMANT</text>
+<text x="840.0" y="90.0" font-family="'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" letter-spacing="0.4" fill="#79747E" text-anchor="end">no public pushes in 90d</text>
+</svg>

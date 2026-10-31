@@ -1,0 +1,48 @@
+name: refresh profile cards
+
+on:
+  schedule:
+    - cron: "0 19 * * *"      # 03:00 Asia/Shanghai
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect public data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/fetch.py --user "${{ github.repository_owner }}" --out data.json
+
+      - name: Render Material 3 cards
+        run: python3 scripts/render.py --data data.json --out assets
+
+      - name: Bump asset cache-busting tokens
+        run: |
+          python3 - <<'EOF'
+          import datetime, re, pathlib
+          stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d")
+          p = pathlib.Path("README.md")
+          p.write_text(re.sub(r"(assets/[A-Za-z0-9_.-]+\.svg)(\?v=\d+)?", r"\1?v=" + stamp, p.read_text()))
+          EOF
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "profile-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets data.json
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: refresh profile cards"
+            git push
+          fi
