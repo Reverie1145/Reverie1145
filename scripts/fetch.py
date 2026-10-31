@@ -32,8 +32,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--user", required=True)
     ap.add_argument("--out", default="data.json")
-    ap.add_argument("--tagline", default="I build small sharp tools: watch apps, bytecode, infrastructure.")
-    ap.add_argument("--chips", default="QuickJS bytecode|Vela / wearables|Reverse engineering")
+    ap.add_argument("--tagline", default="𝕭𝖊𝖆𝖚𝖙𝖞 𝖋𝖆𝖉𝖊𝖘, 𝖇𝖞𝖕𝖆𝖘𝖘 𝖗𝖊𝖒𝖆𝖎𝖓𝖘.")
+    ap.add_argument("--chips", default="watch apps|tooling|reverse engineering")
     a = ap.parse_args()
     tok = os.environ.get("GITHUB_TOKEN")
 
@@ -69,7 +69,9 @@ def main():
     else:
         state, detail = "DORMANT", "no public pushes in 90d"
 
-    projs = sorted(repos, key=lambda r: r["pushed_at"] or "", reverse=True)[:3]
+    # the profile repo itself is not "work" — it is the page
+    projs = [r for r in repos if r["name"].lower() != a.user.lower()]
+    projs = sorted(projs, key=lambda r: r["pushed_at"] or "", reverse=True)[:3]
     projects = [{
         "name": r["name"],
         "desc": (r["description"] or "no description yet").strip()[:140],

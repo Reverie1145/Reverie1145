@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=20261031">
-  <img src="assets/hero-light.svg?v=20261031" alt="Reverie1337 — I build small sharp tools: watch apps, bytecode, infrastructure." width="880">
+  <img src="assets/hero-light.svg?v=20261031" alt="Reverie1337" width="880">
 </picture>
 
 <picture>
@@ -12,14 +12,9 @@
 
 </div>
 
-### Now
+### About
 
-Most of my time goes into **watch-side software**: quick apps that survive a 480×480 screen,
-a ~100 MB heap and no browser. When the tooling I need does not exist, I take the bytecode apart
-and write the tool — that is where [`veladec`](https://github.com/Reverie1145/veladec) came from.
-
-Right now: QuickJS bytecode analysis for Vela `.rpk` bundles, and the infrastructure that keeps
-those side projects building and shipping.
+I make watch apps, and the small tools that come with them.
 
 <div align="center">
 <picture>
@@ -30,10 +25,8 @@ those side projects building and shipping.
 
 ### Selected work
 
-**[veladec](https://github.com/Reverie1145/veladec)** — a self-contained decompiler for QuickJS
-bytecode as found in Vela / Xiaomi watch `.rpk` quick apps. Single file, zero dependencies,
-6 embedded opcode tables, structure recovery, HTML reports. Verified structurally: 2 208 functions
-and 129 442 instructions decoded exactly, zero out-of-range references.
+**[veladec](https://github.com/Reverie1145/veladec)** — a small decompiler for watch app bundles.
+Single file, no dependencies.
 
 <div align="center">
 <picture>
@@ -52,12 +45,5 @@ and 129 442 instructions decoded exactly, zero out-of-range references.
 </div>
 
 <div align="center">
-<sub>
-
-These cards are Material&nbsp;3 SVGs rendered from the GitHub API — no third-party badge
-services, no tracking pixels, no external requests at view time.
-Refresh runs daily at 03:00 Asia/Shanghai; the generator lives in [`scripts/`](scripts) and
-[`data.json`](data.json) holds the exact numbers on the cards.
-
-</sub>
+<sub>Cards are Material&nbsp;3 SVGs rendered from the GitHub API. Refreshed daily.</sub>
 </div>

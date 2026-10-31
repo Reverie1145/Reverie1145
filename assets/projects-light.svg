@@ -1,20 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="180" viewBox="0 0 880 180" role="img" aria-label="projects">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="84" viewBox="0 0 880 84" role="img" aria-label="projects">
 <defs>
   <filter id="e1" x="-6%" y="-12%" width="112%" height="130%"><feDropShadow dx="0" dy="1" stdDeviation="1.8" flood-color="#000000" flood-opacity="0.14"/></filter>
   <filter id="e2" x="-6%" y="-12%" width="112%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.18"/></filter>
 </defs>
 <rect x="0.5" y="0.5" width="879" height="83" rx="20" fill="#F3EDF7" stroke="#CAC4D0" stroke-width="1"/>
 <circle cx="52" cy="42.0" r="22" fill="#EADDFF"/>
-<text x="52.0" y="46.6" font-family="'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="500" letter-spacing="0.6" fill="#21005D" text-anchor="middle">RE</text>
-<text x="88.0" y="36.0" font-family="'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="500" letter-spacing="0.15" fill="#1D1B20" text-anchor="start">Reverie1145</text>
-<text x="88.0" y="58.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" letter-spacing="0.2" fill="#49454F" text-anchor="start">Profile — Material 3 cards rendered from the GitHub API</text>
+<text x="52.0" y="46.6" font-family="'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="500" letter-spacing="0.6" fill="#21005D" text-anchor="middle">VE</text>
+<text x="88.0" y="36.0" font-family="'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="500" letter-spacing="0.15" fill="#1D1B20" text-anchor="start">veladec</text>
+<text x="88.0" y="58.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" letter-spacing="0.2" fill="#49454F" text-anchor="start">A small decompiler for watch app bundles. Single file, no dependencies.</text>
 <rect x="787.1" y="29.0" width="68.9" height="26" rx="8" fill="none" stroke="#CAC4D0" stroke-width="1"/>
 <text x="798.1" y="46.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8" fill="#49454F" text-anchor="start">PUBLIC</text>
-<rect x="0.5" y="96.5" width="879" height="83" rx="20" fill="#F3EDF7" stroke="#CAC4D0" stroke-width="1"/>
-<circle cx="52" cy="138.0" r="22" fill="#EADDFF"/>
-<text x="52.0" y="142.6" font-family="'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="500" letter-spacing="0.6" fill="#21005D" text-anchor="middle">VE</text>
-<text x="88.0" y="132.0" font-family="'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="500" letter-spacing="0.15" fill="#1D1B20" text-anchor="start">veladec</text>
-<text x="88.0" y="154.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" letter-spacing="0.2" fill="#49454F" text-anchor="start">QuickJS bytecode decompiler for Vela / Xiaomi watch .rpk quick apps — zero dependency, single-file zipapp</text>
-<rect x="787.1" y="125.0" width="68.9" height="26" rx="8" fill="none" stroke="#CAC4D0" stroke-width="1"/>
-<text x="798.1" y="142.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8" fill="#49454F" text-anchor="start">PUBLIC</text>
 </svg>

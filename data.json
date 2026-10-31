@@ -1,11 +1,11 @@
 {
   "name": "Reverie1337",
   "handle": "Reverie1145",
-  "tagline": "I build small sharp tools: watch apps, bytecode, infrastructure.",
+  "tagline": "𝕭𝖊𝖆𝖚𝖙𝖞 𝖋𝖆𝖉𝖊𝖘, 𝖇𝖞𝖕𝖆𝖘𝖘 𝖗𝖊𝖒𝖆𝖎𝖓𝖘.",
   "chips": [
-    "QuickJS bytecode",
-    "Vela / wearables",
-    "Reverse engineering"
+    "watch apps",
+    "tooling",
+    "reverse engineering"
   ],
   "state": "DORMANT",
   "state_detail": "no public pushes in 90d",
@@ -124,14 +124,8 @@
   },
   "projects": [
     {
-      "name": "Reverie1145",
-      "desc": "Profile — Material 3 cards rendered from the GitHub API",
-      "initials": "RE",
-      "tag": "PUBLIC"
-    },
-    {
       "name": "veladec",
-      "desc": "QuickJS bytecode decompiler for Vela / Xiaomi watch .rpk quick apps — zero dependency, single-file zipapp",
+      "desc": "A small decompiler for watch app bundles. Single file, no dependencies.",
       "initials": "VE",
       "tag": "PUBLIC"
     }
@@ -144,5 +138,5 @@
     "Linux",
     "Docker"
   ],
-  "generated_at": "2026-10-31T13:28:52+00:00"
+  "generated_at": "2026-10-31T13:41:53+00:00"
 }
