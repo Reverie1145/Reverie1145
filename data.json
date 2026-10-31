@@ -11,7 +11,7 @@
   "state_detail": "no public pushes in 90d",
   "metrics": [
     {
-      "value": "1",
+      "value": "2",
       "label": "public repos"
     },
     {
@@ -124,6 +124,12 @@
   },
   "projects": [
     {
+      "name": "Reverie1145",
+      "desc": "Profile — Material 3 cards rendered from the GitHub API",
+      "initials": "RE",
+      "tag": "PUBLIC"
+    },
+    {
       "name": "veladec",
       "desc": "QuickJS bytecode decompiler for Vela / Xiaomi watch .rpk quick apps — zero dependency, single-file zipapp",
       "initials": "VE",
@@ -138,5 +144,5 @@
     "Linux",
     "Docker"
   ],
-  "generated_at": "2026-10-31T13:05:35+00:00"
+  "generated_at": "2026-10-31T13:28:52+00:00"
 }
