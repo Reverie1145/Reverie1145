@@ -12,10 +12,6 @@
 
 </div>
 
-### About
-
-I make watch apps, and the small tools that come with them.
-
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=20261031">
