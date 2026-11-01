@@ -1,5 +1,5 @@
 {
-  "name": "Reverie1337",
+  "name": "Reverie",
   "handle": "Reverie1145",
   "tagline": "𝕭𝖊𝖆𝖚𝖙𝖞 𝖋𝖆𝖉𝖊𝖘, 𝖇𝖞𝖕𝖆𝖘𝖘 𝖗𝖊𝖒𝖆𝖎𝖓𝖘.",
   "chips": [
@@ -7,19 +7,19 @@
     "tooling",
     "reverse engineering"
   ],
-  "state": "DORMANT",
-  "state_detail": "no public pushes in 90d",
+  "state": "ACTIVE",
+  "state_detail": "last public push today",
   "metrics": [
     {
-      "value": "2",
+      "value": "3",
       "label": "public repos"
     },
     {
-      "value": "0",
+      "value": "3",
       "label": "commits · 30d"
     },
     {
-      "value": "0",
+      "value": "3",
       "label": "commits · 90d"
     }
   ],
@@ -113,16 +113,22 @@
       0,
       0,
       0,
-      0,
-      0
+      1,
+      2
     ],
-    "total": 0,
+    "total": 3,
     "caption": "public commits · rolling 90 days",
     "left_label": "90d ago",
     "right_label": "today",
     "empty": "no public activity in this window"
   },
   "projects": [
+    {
+      "name": "nocturne-open",
+      "desc": "Nocturne — Fabric client for Minecraft 26.2: NanoVG UI, modules, scripting, packer",
+      "initials": "NO",
+      "tag": "PUBLIC"
+    },
     {
       "name": "veladec",
       "desc": "A small decompiler for watch app bundles. Single file, no dependencies.",
@@ -138,5 +144,5 @@
     "Linux",
     "Docker"
   ],
-  "generated_at": "2026-10-31T22:04:27+00:00"
+  "generated_at": "2026-11-01T03:40:41+00:00"
 }

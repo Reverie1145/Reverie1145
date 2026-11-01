@@ -48,6 +48,33 @@ def main():
     days = [0] * 90
     commits30 = 0
     last_push = None
+
+    # Events only carry recent, aggregated pushes and miss commits created through
+    # the REST API, so count real commits per public repo as well.
+    since = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=90)).isoformat(timespec="seconds")
+    counted = 0
+    for r in repos:
+        if r["name"].lower() == a.user.lower() or r.get("fork"):
+            continue
+        try:
+            hist = get(f"/repos/{r['full_name']}/commits?since={since}&per_page=100", tok)
+        except Exception:
+            continue
+        for c in hist if isinstance(hist, list) else []:
+            stamp = c.get("commit", {}).get("committer", {}).get("date") or ""
+            if len(stamp) < 10:
+                continue
+            d = dt.date.fromisoformat(stamp[:10])
+            delta = (today - d).days
+            if 0 <= delta < 90:
+                days[89 - delta] += 1
+                if delta < 30:
+                    commits30 += 1
+            if last_push is None or stamp > last_push:
+                last_push = stamp
+            counted += 1
+    if counted:
+        events = []
     for e in events:
         if e.get("type") != "PushEvent":
             continue
