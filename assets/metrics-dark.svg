@@ -7,9 +7,9 @@
 <text x="24.0" y="56.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="-0.25" fill="#E6E0E9" text-anchor="start">3</text>
 <text x="24.0" y="84.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8" fill="#CAC4D0" text-anchor="start">PUBLIC REPOS</text>
 <rect x="299.1666666666667" y="0.5" width="281.6666666666667" height="115" rx="20" fill="#211F26" stroke="#49454F" stroke-width="1"/>
-<text x="322.7" y="56.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="-0.25" fill="#E6E0E9" text-anchor="start">3</text>
+<text x="322.7" y="56.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="-0.25" fill="#E6E0E9" text-anchor="start">7</text>
 <text x="322.7" y="84.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8" fill="#CAC4D0" text-anchor="start">COMMITS · 30D</text>
 <rect x="597.8333333333334" y="0.5" width="281.6666666666667" height="115" rx="20" fill="#211F26" stroke="#49454F" stroke-width="1"/>
-<text x="621.3" y="56.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="-0.25" fill="#E6E0E9" text-anchor="start">3</text>
+<text x="621.3" y="56.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="-0.25" fill="#E6E0E9" text-anchor="start">7</text>
 <text x="621.3" y="84.0" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="500" letter-spacing="0.8" fill="#CAC4D0" text-anchor="start">COMMITS · 90D</text>
 </svg>

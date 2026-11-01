@@ -15,11 +15,11 @@
       "label": "public repos"
     },
     {
-      "value": "3",
+      "value": "7",
       "label": "commits · 30d"
     },
     {
-      "value": "3",
+      "value": "7",
       "label": "commits · 90d"
     }
   ],
@@ -114,9 +114,9 @@
       0,
       0,
       1,
-      2
+      6
     ],
-    "total": 3,
+    "total": 7,
     "caption": "public commits · rolling 90 days",
     "left_label": "90d ago",
     "right_label": "today",
@@ -124,15 +124,15 @@
   },
   "projects": [
     {
-      "name": "nocturne-open",
-      "desc": "Nocturne — Fabric client for Minecraft 26.2: NanoVG UI, modules, scripting, packer",
-      "initials": "NO",
-      "tag": "PUBLIC"
-    },
-    {
       "name": "veladec",
       "desc": "A small decompiler for watch app bundles. Single file, no dependencies.",
       "initials": "VE",
+      "tag": "PUBLIC"
+    },
+    {
+      "name": "nocturne-open",
+      "desc": "Nocturne — Fabric client for Minecraft 26.2: NanoVG UI, modules, scripting, packer",
+      "initials": "NO",
       "tag": "PUBLIC"
     }
   ],
@@ -144,5 +144,5 @@
     "Linux",
     "Docker"
   ],
-  "generated_at": "2026-11-01T03:40:41+00:00"
+  "generated_at": "2026-11-01T22:32:18+00:00"
 }
