@@ -21,6 +21,9 @@
 
 ### Selected work
 
+**[nocturne-open](https://github.com/Reverie1145/nocturne-open)** — a Fabric client for Minecraft 26.2:
+NanoVG-drawn UI, module system, scripting, and a native packer + bytecode obfuscation pipeline.
+
 **[veladec](https://github.com/Reverie1145/veladec)** — a small decompiler for watch app bundles.
 Single file, no dependencies.
 
