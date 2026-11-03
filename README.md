@@ -1,21 +1,21 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=20261101">
-  <img src="assets/hero-light.svg?v=20261101" alt="Reverie1337" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?v=20261103">
+  <img src="assets/hero-light.svg?v=20261103" alt="Reverie1337" width="880">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg?v=20261101">
-  <img src="assets/metrics-light.svg?v=20261101" alt="Public repos, commits in the last 30 and 90 days" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/metrics-dark.svg?v=20261103">
+  <img src="assets/metrics-light.svg?v=20261103" alt="Public repos, commits in the last 30 and 90 days" width="880">
 </picture>
 
 </div>
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=20261101">
-  <img src="assets/activity-light.svg?v=20261101" alt="Public commit activity over the last 90 days" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/activity-dark.svg?v=20261103">
+  <img src="assets/activity-light.svg?v=20261103" alt="Public commit activity over the last 90 days" width="880">
 </picture>
 </div>
 
@@ -29,8 +29,8 @@ Single file, no dependencies.
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/projects-dark.svg?v=20261101">
-  <img src="assets/projects-light.svg?v=20261101" alt="Recently updated public repositories" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/projects-dark.svg?v=20261103">
+  <img src="assets/projects-light.svg?v=20261103" alt="Recently updated public repositories" width="880">
 </picture>
 </div>
 
@@ -38,8 +38,8 @@ Single file, no dependencies.
 
 <div align="center">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg?v=20261101">
-  <img src="assets/stack-light.svg?v=20261101" alt="Python, JavaScript, Java, Kotlin, Linux, Docker" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg?v=20261103">
+  <img src="assets/stack-light.svg?v=20261103" alt="Python, JavaScript, Java, Kotlin, Linux, Docker" width="880">
 </picture>
 </div>
 
