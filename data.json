@@ -8,7 +8,7 @@
     "reverse engineering"
   ],
   "state": "ACTIVE",
-  "state_detail": "last public push 3d ago",
+  "state_detail": "last public push 4d ago",
   "metrics": [
     {
       "value": "3",
@@ -144,5 +144,5 @@
     "Linux",
     "Docker"
   ],
-  "generated_at": "2026-11-05T00:02:49+00:00"
+  "generated_at": "2026-11-05T23:53:31+00:00"
 }
