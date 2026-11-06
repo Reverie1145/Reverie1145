@@ -8,18 +8,18 @@
     "reverse engineering"
   ],
   "state": "ACTIVE",
-  "state_detail": "last public push 4d ago",
+  "state_detail": "last public push today",
   "metrics": [
     {
-      "value": "3",
+      "value": "4",
       "label": "public repos"
     },
     {
-      "value": "7",
+      "value": "8",
       "label": "commits · 30d"
     },
     {
-      "value": "7",
+      "value": "8",
       "label": "commits · 90d"
     }
   ],
@@ -108,21 +108,27 @@
       0,
       0,
       0,
-      0,
       1,
       6,
       0,
       0,
       0,
-      0
+      0,
+      1
     ],
-    "total": 7,
+    "total": 8,
     "caption": "public commits · rolling 90 days",
     "left_label": "90d ago",
     "right_label": "today",
     "empty": "no public activity in this window"
   },
   "projects": [
+    {
+      "name": "ReverieAgent",
+      "desc": "Autonomous multi-agent orchestration desktop app - Rust actor runtime, Tauri v2, React. A Meta-Orchestrator designs the swarm; every agent g",
+      "initials": "RE",
+      "tag": "PUBLIC"
+    },
     {
       "name": "veladec",
       "desc": "A small decompiler for watch app bundles. Single file, no dependencies.",
@@ -144,5 +150,5 @@
     "Linux",
     "Docker"
   ],
-  "generated_at": "2026-11-05T23:53:31+00:00"
+  "generated_at": "2026-11-06T23:36:02+00:00"
 }
