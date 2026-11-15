@@ -7,25 +7,24 @@
     "tooling",
     "reverse engineering"
   ],
-  "state": "IDLE",
-  "state_detail": "last public push 8d ago",
+  "state": "ACTIVE",
+  "state_detail": "last public push today",
   "metrics": [
     {
       "value": "4",
       "label": "public repos"
     },
     {
-      "value": "8",
+      "value": "9",
       "label": "commits · 30d"
     },
     {
-      "value": "8",
+      "value": "9",
       "label": "commits · 90d"
     }
   ],
   "activity": {
     "days": [
-      0,
       0,
       0,
       0,
@@ -114,9 +113,10 @@
       0,
       0,
       0,
-      0
+      0,
+      1
     ],
-    "total": 8,
+    "total": 9,
     "caption": "public commits · rolling 90 days",
     "left_label": "90d ago",
     "right_label": "today",
@@ -124,15 +124,15 @@
   },
   "projects": [
     {
-      "name": "ReverieAgent",
-      "desc": "Autonomous multi-agent orchestration desktop app - Rust actor runtime, Tauri v2, React. A Meta-Orchestrator designs the swarm; every agent g",
-      "initials": "RE",
-      "tag": "PUBLIC"
-    },
-    {
       "name": "veladec",
       "desc": "A small decompiler for watch app bundles. Single file, no dependencies.",
       "initials": "VE",
+      "tag": "PUBLIC"
+    },
+    {
+      "name": "ReverieAgent",
+      "desc": "Autonomous multi-agent orchestration desktop app - Rust actor runtime, Tauri v2, React. A Meta-Orchestrator designs the swarm; every agent g",
+      "initials": "RE",
       "tag": "PUBLIC"
     },
     {
@@ -150,5 +150,5 @@
     "Linux",
     "Docker"
   ],
-  "generated_at": "2026-11-14T22:49:09+00:00"
+  "generated_at": "2026-11-15T23:16:37+00:00"
 }
