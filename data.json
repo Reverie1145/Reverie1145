@@ -8,7 +8,7 @@
     "reverse engineering"
   ],
   "state": "ACTIVE",
-  "state_detail": "last public push today",
+  "state_detail": "last public push 1d ago",
   "metrics": [
     {
       "value": "4",
@@ -97,8 +97,6 @@
       0,
       0,
       0,
-      0,
-      0,
       1,
       6,
       0,
@@ -114,7 +112,9 @@
       0,
       0,
       0,
-      1
+      1,
+      0,
+      0
     ],
     "total": 9,
     "caption": "public commits · rolling 90 days",
@@ -150,5 +150,5 @@
     "Linux",
     "Docker"
   ],
-  "generated_at": "2026-11-15T23:16:37+00:00"
+  "generated_at": "2026-11-17T02:13:28+00:00"
 }
