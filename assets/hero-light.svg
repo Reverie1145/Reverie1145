@@ -16,5 +16,5 @@
 <rect x="728.0" y="38" width="112.0" height="30" rx="15" fill="#EADDFF"/>
 <circle cx="747.0" cy="53" r="4" fill="#6750A4"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
 <text x="759.0" y="57.5" font-family="Roboto, 'Google Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="500" letter-spacing="1.0" fill="#21005D" text-anchor="start">ACTIVE</text>
-<text x="840.0" y="90.0" font-family="'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" letter-spacing="0.4" fill="#79747E" text-anchor="end">last public push 4d ago</text>
+<text x="840.0" y="90.0" font-family="'Roboto Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="400" letter-spacing="0.4" fill="#79747E" text-anchor="end">last public push 5d ago</text>
 </svg>
